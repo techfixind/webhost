@@ -1,55 +1,5 @@
 # Cloud Web Hosting Platform - Development Roadmap
 
-Repository Structure
-webhost/
-├── .github/
-│   ├── workflows/           # GitHub Actions CI/CD
-│   ├── ISSUE_TEMPLATE/
-│   └── PULL_REQUEST_TEMPLATE.md
-├── docs/                    # All project documentation
-│   ├── PROJECT_OVERVIEW.md  # This file
-│   ├── ARCHITECTURE.md
-│   ├── ROADMAP.md
-│   ├── TECH_STACK.md
-│   ├── FEATURES.md
-│   ├── SECURITY.md
-│   ├── COPILOT_INSTRUCTIONS.md
-│   ├── API_SPECIFICATION.md
-│   └── adr/                 # Architecture Decision Records
-├── apps/
-│   ├── admin-portal/        # React + MUI (Admin SaaS panel)
-│   ├── reseller-portal/     # React + MUI (Reseller panel)
-│   ├── customer-portal/     # React + MUI (Customer panel)
-│   ├── api-gateway/         # Node.js API Gateway
-│   ├── auth-service/        # OAuth 2.0 + 2FA service
-│   ├── billing-service/     # Billing, subscriptions, GST
-│   ├── provisioning-service/# Linux + Windows provisioning
-│   ├── ai-assistant-service/# GPT-4 AI features
-│   └── notification-service/# Email, SMS, webhooks
-├── packages/
-│   ├── ui-components/       # Shared MUI components
-│   ├── utils/               # Shared utilities
-│   └── types/               # Shared TypeScript types
-├── infra/
-│   ├── terraform/           # IaC (Terraform)
-│   ├── ansible/             # Configuration management
-│   ├── k8s/                 # Kubernetes manifests
-│   └── docker/              # Dockerfiles
-├── scripts/
-│   ├── setup-dev.sh
-│   ├── migrate-db.sh
-│   └── backup.sh
-├── tests/
-│   ├── e2e/                 # Playwright E2E tests
-│   ├── integration/
-│   └── performance/
-├── .copilot/                # GitHub Copilot instructions
-├── package.json             # Monorepo root
-├── turbo.json               # Turborepo config
-├── README.md
-└── LICENSE
-
-
 ## Phase 1: Foundation & Core Infrastructure (Weeks 1-8)
 
 ### Week 1-2: Project Setup & Architecture

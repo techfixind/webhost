@@ -1,7 +1,6 @@
 # Cloud Web Hosting Platform - Development Roadmap
 
 Repository Structure
-
 webhost/
 ├── .github/
 │   ├── workflows/           # GitHub Actions CI/CD
@@ -49,6 +48,7 @@ webhost/
 ├── turbo.json               # Turborepo config
 ├── README.md
 └── LICENSE
+
 
 ## Phase 1: Foundation & Core Infrastructure (Weeks 1-8)
 
